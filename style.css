@@ -117,7 +117,7 @@ border-radius: 2rem;
         padding:20px 15px;
     }
  }
- /* For Mobile Screen smalll size */
+ /* For Mobile medeum smalll size */
  @media (max-width: 380px){
     body{
         height: 100vh;
@@ -132,21 +132,8 @@ border-radius: 2rem;
         padding: 0 10px;
     }
  }
- /* For Mobile Screen Medium size */
- @media (max-width: 400px){
-    body{
-        height: 100vh;
-        background-size: cover;
-        background-position:center;
-        font-weight: 600;
-    }
-    .card{
-        padding:15px 10px;
-    }
-    .details{
-        padding: 0 10px;
-    }
- }
+ /* For Mobile Screen small size */
+ 
  .weather{
     display: none;
  }
