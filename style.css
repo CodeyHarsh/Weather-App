@@ -117,6 +117,7 @@ border-radius: 2rem;
         padding:20px 15px;
     }
  }
+ /* For Mobile Screen smalll size */
  @media (max-width: 380px){
     body{
         height: 100vh;
@@ -131,6 +132,7 @@ border-radius: 2rem;
         padding: 0 10px;
     }
  }
+ /* For Mobile Screen Medium size */
  @media (max-width: 400px){
     body{
         height: 100vh;
@@ -144,5 +146,8 @@ border-radius: 2rem;
     .details{
         padding: 0 10px;
     }
+ }
+ .weather{
+    display: none;
  }
  
