@@ -104,9 +104,13 @@ border-radius: 2rem;
   font-size: 28px;
 
 }
+.weather{
+    display: none;
+ }
+ 
 /* Responsive Media Query  */
  /* For Mobile Screen Large size */
- @media (max-width: 480px){
+ @media all and (max-width: 480px){
     body{
         height: 100vh;
         background-size: cover;
@@ -118,7 +122,7 @@ border-radius: 2rem;
     }
  }
  /* For Mobile medeum smalll size */
- @media (max-width: 380px){
+ @media all and (max-width: 380px){
     body{
         height: 100vh;
         background-size: cover;
@@ -133,7 +137,7 @@ border-radius: 2rem;
     }
  }
  /* For Mobile Screen small size */
- @media (max-width: 320px){
+ @media all and (max-width: 320px){
     body{
         height: 100vh;
         background-size: cover;
@@ -158,8 +162,5 @@ border-radius: 2rem;
     .search{
         margin-top: 10px;
     }
- }
- .weather{
-    display: none;
  }
  
